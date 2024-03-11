@@ -174,3 +174,13 @@ def BooksFBAPIView(request, pk=None):
                 return Response({'msg':'Provided Book Id is not available'})
         book.delete()
         return Response({'msg':'Data Deleted'})
+
+class DemoPurpose(object):
+    def __init__(self):
+        print('constructor for demo purpose')
+# create branch
+    # 1 way
+    # git branch features
+    # 2 way
+    # git checkout -b feature
+    # git fetch
